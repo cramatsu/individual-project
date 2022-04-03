@@ -18,7 +18,7 @@ bot.command('start', (ctx) => ctx.reply("Охаё"));
 
 bot.command('download', async (ctx) => {
 
-    const args = ctx.update.message.text.split(' ').filter(el => !el.startsWith('/')) ?? null;
+    const args = ctx.update.message.text.split(' ').filter(el => !el.startsWith('/'));
 
 
     if (args.length < 1) {
