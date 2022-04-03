@@ -1,0 +1,26 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "cramatsu",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon .",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "node-ddg-api": "^0.1.4",
+    "telegraf": "^4.7.0",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "^15.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
